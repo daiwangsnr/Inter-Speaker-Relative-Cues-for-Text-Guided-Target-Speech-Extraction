@@ -1,4 +1,3 @@
-# Perceptual-TSE
 
 This repository contains the code for constructing the dataset described in our paper "Inter-Speaker Relative Cues for Text-Guided Target Speech Extraction", accepted at Interspeech 2025.
 
