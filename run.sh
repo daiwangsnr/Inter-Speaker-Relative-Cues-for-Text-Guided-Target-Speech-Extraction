@@ -9,4 +9,5 @@
 #SBATCH --mem=370G
 #SBATCH --nodes=1
 
+# Speed up dataset simulation using multi-process parallelism
 srun --ntasks=16 python dataset.py -opt yml/dataset.yml
