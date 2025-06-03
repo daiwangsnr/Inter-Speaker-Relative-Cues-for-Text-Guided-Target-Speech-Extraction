@@ -1,0 +1,25 @@
+#### Setting
+
+#### Dataset Configure
+datasets:
+  num_workers: 5
+  batch_size: 1
+  #fs: 16000
+  #chunk_len: 6
+  train:
+    json_file1: json/without_emotion_age/train_part1.json
+    json_file2: json/without_emotion_age/train_part2.json
+    rir_directory: rirs/train
+    mix_count: 70000
+   
+  val:
+    json_file1: json/without_emotion_age/val_part1.json
+    json_file2: json/without_emotion_age/val_part2.json
+    rir_directory: rirs/dev
+    mix_count: 7000
+  
+  test:
+    json_file1: json/without_emotion_age/test_part1.json
+    json_file2: json/without_emotion_age/test_part2.json
+    rir_directory: rirs/test
+    mix_count: 7000
