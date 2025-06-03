@@ -56,7 +56,7 @@ for dataset in ['rirs_distance/train', 'rirs_distance/dev', 'rirs_distance/test'
     os.makedirs(dataset, exist_ok=True)
 
 # Generate rir data
-rir_datasets = {'rirs_distance/train': 10000, 'rirs_distance/dev': 1000, 'rirs_distance/test': 1000}
+rir_datasets = {'rirs/train': 10000, 'rirs/dev': 1000, 'rirs/test': 1000}
 for rir_dataset, count in rir_datasets.items():
     for i in range(count):
         room_sz = [rngs[1].uniform(9, 11), rngs[2].uniform(9, 11), rngs[3].uniform(2.6, 3.5)]
