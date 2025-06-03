@@ -125,15 +125,6 @@ class ShortTemplate():
     ):
         #acts.sort()
         assert acts == ['1']        
-        self.lookups = {
-            '0': ['remove {}', 'eliminate {}', 'take {} away'],
-            '1': ['extract {}', 'pick out {}', 'isolate {}'],
-        }
-
-        self.lookups_extract_or_remove = {
-            '0': ['remove', 'eliminate', 'take away {}'],
-            '1': ['extract', 'pick out', 'isolate'],
-        }
 
         self.templates = {
             1: [
@@ -156,24 +147,6 @@ class ShortTemplate():
                 'I want to {}, {}, {}, and {}.',
                 'Can you {}, {}, {}, and {}?'
             ]
-        }
-
-        self.templates_extract_or_remove = {
-            1: [
-                'Please {} {}.',
-                'I want to {} {}.',
-                'Can you {} {}?'
-            ],
-            2: [
-                'Please {} {} and {}.',
-                'I want to {} {} and {}.',
-                'Can you {} {} and {}?'
-            ],
-            3: [
-                'Please {} {}, {}, and {}.',
-                'I want to {} {}, {}, and {}.',
-                'Can you {} {}, {}, and {}?'
-            ],
         }
 
         self.shuffle = False
