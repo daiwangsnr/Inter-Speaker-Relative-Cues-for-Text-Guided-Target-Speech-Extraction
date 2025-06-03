@@ -128,8 +128,6 @@ class ShortTemplate():
         self.lookups = {
             '0': ['remove {}', 'eliminate {}', 'take {} away'],
             '1': ['extract {}', 'pick out {}', 'isolate {}'],
-            #'D': ['turn down the volume of {}', 'lower the volume of {}', 'make {} quieter'],
-            #'U': ['turn up the volume of {}', 'raise the volume of {}', 'make {} louder']
         }
 
         self.lookups_extract_or_remove = {
