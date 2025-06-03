@@ -11,7 +11,7 @@ Each group contains six JSON files: train_part1.json, train_part2.json, val_part
 
 generate_rir.py and prompt_template.py are used for simulating room impulse responses (RIRs) and generating template prompts, respectively.
 
-You can use run.sh script to execute multi-process parallelism to speed up dataset simulation.
+You can use run.sh script to execute multi-process parallelization to speed up dataset simulation.
 
 Acknowledgement:
 -
