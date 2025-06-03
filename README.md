@@ -9,8 +9,5 @@ containing summarized statistics and essential information used to construct our
 Specifically, they are categorized into three groups: 'emotion', 'age', and 'without_emotion_age'. 
 Each group contains six JSON files: train_part1.json, train_part2.json, val_part1.json, val_part2.json, test_part1.json, and test_part2.json.
 
-
-generate_rir.py is the code for simulating room impuse response (RIR).
-
-
+generate_rir.py and prompt_template.py are used for simulating room impulse responses (RIRs) and generating template prompts, respectively.
 
